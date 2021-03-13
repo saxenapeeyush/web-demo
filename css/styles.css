@@ -1,0 +1,49 @@
+.parent {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.blue {
+  color: #40C1FA;
+}
+
+.child1 {
+  letter-spacing: 1px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* margin-right: 384px; */
+}
+
+.ulTag {
+  min-height: 32px;
+  min-width: 295px;
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  align-items: center;
+}
+
+.ulTag li {
+  font-weight: bold;
+  font-size: 8px;
+  color: white;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.myName {
+  padding: 10px;
+  border: 1px dashed red;
+  margin-right: 30px;
+}
